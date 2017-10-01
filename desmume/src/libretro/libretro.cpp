@@ -982,7 +982,7 @@ void retro_set_environment(retro_environment_t cb)
    static const retro_variable values[] =
    {
       { "desmume_internal_resolution", "Internal resolution (restart); 256x192|512x384|768x576|1024x768|1280x960|1536x1152|1792x1344|2048x1536|2304x1728|2560x1920" },
-      { "desmume_num_cores", "CPU cores; 1|2|3|4" },
+      { "desmume_num_cores", "CPU cores; 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16" },
 #ifdef HAVE_JIT
 #if defined(IOS) || defined(ANDROID)
       { "desmume_cpu_mode", "CPU mode; interpreter|jit" },
